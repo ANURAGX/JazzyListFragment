@@ -36,7 +36,7 @@ Include Jazzy List Fragment as a library to your main project and extend your fr
 	public class FragmentClass extends JazzyListFragment{
 		/**
 			 * 
-			 * @param animStyle
+			 * @param animationStyle
 			 * 
 			 *  STANDARD = 0;
 		     *  GROW = 1;
@@ -56,6 +56,8 @@ Include Jazzy List Fragment as a library to your main project and extend your fr
 			 */
 	
 		public FragmentClass(){
+		
+			//Pass the above integer values to constutor for the mentioned animation styles...
 			super(animationStyle);
 		}
 		
