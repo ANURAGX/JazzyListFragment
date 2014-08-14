@@ -34,6 +34,27 @@ Library Usage
 Include Jazzy List Fragment as a library to your main project and extend your fragment class to JazzyListFragment class.
 ```java
 	public class FragmentClass extends JazzyListFragment{
+		/**
+			 * 
+			 * @param animStyle
+			 * 
+			 *  STANDARD = 0;
+		     *  GROW = 1;
+		     *  CARDS = 2;
+		     *  CURL = 11;
+		     *  WAVE = 8;
+		     *  FLIP = 5;
+		     *  FLY = 6;
+		     *  REVERSE_FLY = 7;
+		     *  HELIX = 4;
+		     *  FAN = 9;
+		     *  TILT = 10;
+		     *  ZIPPER = 3;
+		     *  FADE = 12;
+		     *  TWIRL = 13;
+		     *  SLIDE_IN = 14;
+			 */
+	
 		public FragmentClass(){
 			super(animationStyle);
 		}
