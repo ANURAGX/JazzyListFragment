@@ -1,4 +1,4 @@
-![File Quest](http://s2.postimg.org/godz4pg89/Untitled2.png "File Quest")
+### JAZZY LIST FRAGMENT
 =====
 
 
