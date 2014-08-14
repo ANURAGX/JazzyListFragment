@@ -9,7 +9,7 @@ Animations Available
 There are around 12 different animations available that you can choose for your list fragment
 ```java
 
-    	STANDARD = 0;
+    	     STANDARD = 0;
 		       GROW = 1;
 		       CARDS = 2;
 		       CURL = 11;
