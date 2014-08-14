@@ -29,5 +29,8 @@ There are around 12 different animations available that you can choose for your 
 ```
 You can manually create your own animations and include it in main project.
 
+Library Usage
+-----
+
 ###Beautiful Screenshots From File Quest that implemented this Library.... 
 <img src="http://s9.postimg.org/exkfopq8f/Untitled.png" width="720px" height="600px"/>
