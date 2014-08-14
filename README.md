@@ -54,9 +54,7 @@ Include Jazzy List Fragment as a library to your main project and extend your fr
 		     *  TWIRL = 13;
 		     *  SLIDE_IN = 14;
 			 */
-	
 		public FragmentClass(){
-		
 			//Pass the above integer values to constutor for the mentioned animation styles...
 			super(animationStyle);
 		}
