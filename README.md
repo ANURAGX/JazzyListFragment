@@ -70,6 +70,7 @@ Include Jazzy List Fragment as a library to your main project and extend your fr
 	}
 ```
 Don't call getListView() in OnCreate(Bundle x) function,if you do call it you will get Exception.
+I have attached a sample apk for your convenience and there is a demo project for more information on it. 
 
 ###Beautiful Screenshots From File Quest that implemented this Library.... 
 <img src="http://s9.postimg.org/exkfopq8f/Untitled.png" width="720px" height="600px"/>
