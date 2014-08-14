@@ -8,19 +8,24 @@ Animations Available
 --------
 There are around 12 different animations available that you can choose for your list fragment
 ```java
-public enum TransitionEffect {
-    	Standard,
-		Tablet,
-		CubeIn,
-		CubeOut,
-		Flip,
-		Stack,
-		ZoomIn,
-		ZoomOut,
-		RotateUp,
-		RotateDown,
-		Accordion
-	}
+
+    	               STANDARD = 0;
+		       GROW = 1;
+		       CARDS = 2;
+		       CURL = 11;
+		       WAVE = 8;
+		       FLIP = 5;
+		       FLY = 6;
+		       REVERSE_FLY = 7;
+		       HELIX = 4;
+		       FAN = 9;
+		       TILT = 10;
+		       ZIPPER = 3;
+		       FADE = 12;
+		       TWIRL = 13;
+		       SLIDE_IN = 14;
+		
+	
 ```
 
 ###Beautiful Screenshots From File Quest that implemented this Library.... 
