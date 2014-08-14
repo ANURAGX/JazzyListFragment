@@ -31,6 +31,22 @@ You can manually create your own animations and include it in main project.
 
 Library Usage
 -----
+Include Jazzy List Fragment as a library to your main project and extend your fragment class to JazzyListFragment class.
+```java
+	public class FragmentClass extends JazzyListFragment{
+		public FragmentClass(){
+			super(animationStyle);
+		}
+		
+		@Override
+		public void onActivityCreated(Bundle savedInstanceState) {
+			// TODO Auto-generated method stub
+			super.onCreate(savedInstanceState);
+			getListView();
+			setListAdapter(your_Adapter_Here);
+		}
+	}
+```
 
 ###Beautiful Screenshots From File Quest that implemented this Library.... 
 <img src="http://s9.postimg.org/exkfopq8f/Untitled.png" width="720px" height="600px"/>
