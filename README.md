@@ -6,6 +6,22 @@ Now here's a simple and smarted way of having Jazzy list view for your list frag
 
 Animations Available
 --------
+There are around 12 different animations available that you can choose for your list fragment
+```java
+public enum TransitionEffect {
+    	Standard,
+		Tablet,
+		CubeIn,
+		CubeOut,
+		Flip,
+		Stack,
+		ZoomIn,
+		ZoomOut,
+		RotateUp,
+		RotateDown,
+		Accordion
+	}
+```
 
 ###Beautiful Screenshots From File Quest that implemented this Library.... 
 <img src="http://s9.postimg.org/exkfopq8f/Untitled.png" width="720px" height="600px"/>
