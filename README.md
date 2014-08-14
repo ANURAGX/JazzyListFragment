@@ -42,7 +42,8 @@ Include Jazzy List Fragment as a library to your main project and extend your fr
 		public void onActivityCreated(Bundle savedInstanceState) {
 			// TODO Auto-generated method stub
 			super.onCreate(savedInstanceState);
-			getListView();
+			
+			getListView(); //Get list view must be called to get your animations working....
 			setListAdapter(your_Adapter_Here);
 		}
 	}
